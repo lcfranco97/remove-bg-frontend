@@ -40,9 +40,9 @@ export default function About() {
             <div className="lg:ml-20">
                 <Image src={bg2}
                     alt="Imagem ilustrativa"
-                    width={300}
+                    width={450}
                     height={450}
-                    className="h-full w-[450px] rounded-lg"
+                    className="h-full rounded-lg"
                 />    
             </div>
 
