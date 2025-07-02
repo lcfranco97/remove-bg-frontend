@@ -44,6 +44,7 @@ export default function About() {
                     height={550}
                     className="h-full rounded-lg"
                     priority
+                    unoptimized
                 />    
             </div>
 
