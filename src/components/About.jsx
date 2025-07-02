@@ -41,8 +41,9 @@ export default function About() {
                 <Image src={'/sembg2.png'}
                     alt="Imagem ilustrativa"
                     width={450}
-                    height={450}
+                    height={550}
                     className="h-full rounded-lg"
+                    priority
                 />    
             </div>
 
