@@ -22,7 +22,7 @@ export default function RemoveLayout() {
         formData.append("file", selectedFile);
 
         try {
-            const response = await fetch("https://remove-bg-backend-production.up.railway.app/remove-bg", {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/remove-bg`, {
                 method: "POST",
                 body: formData,
             });

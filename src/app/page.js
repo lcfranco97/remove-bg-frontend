@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import RemoveLayout from "@/components/RemoveLayout";
 import Header from "@/components/Header";
 import About from "@/components/About";
