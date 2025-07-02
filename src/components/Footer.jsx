@@ -36,7 +36,7 @@ export default function Footer() {
                             duration: .2
                         }
                     }}> 
-                        <a href="https://github.com/lcfranco97"><IoLogoGithub size={28} className="cursor-pointer" /></a>
+                        <a href="https://github.com/lcfranco97" aria-label="Link para o Github do desenvolvedor Lucas Franco"><IoLogoGithub size={28} className="cursor-pointer" /></a>
                         
                     </motion.div>
                     
@@ -46,7 +46,7 @@ export default function Footer() {
                             duration: .2
                         }
                     }}>
-                        <a href="https://www.linkedin.com/in/lucas-franco-39579b208/"><FaLinkedin size={28} className="cursor-pointer" /></a>
+                        <a href="https://www.linkedin.com/in/lucas-franco-39579b208/" aria-label="Link para o Linkedin do desenvolvedor Lucas Franco"><FaLinkedin size={28} className="cursor-pointer" /></a>
                     </motion.div>
 
                     <motion.div whileHover={{
@@ -55,7 +55,7 @@ export default function Footer() {
                             duration: .2
                         }
                     }}>
-                        <a href="https://www.instagram.com/lcfrancoo/"><FaInstagram size={28} className="cursor-pointer" /></a>
+                        <a href="https://www.instagram.com/lcfrancoo/" aria-label="Link para o Instagram do desenvolvedor Lucas Franco"><FaInstagram size={28} className="cursor-pointer" /></a>
                     </motion.div>
 
                 </div>
