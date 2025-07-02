@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import bg2 from '../app/assets/sembg2.png';
+
 
 
 export default function About() {
@@ -38,7 +38,7 @@ export default function About() {
 
 
             <div className="lg:ml-20">
-                <Image src={bg2}
+                <Image src={'/sembg2.png'}
                     alt="Imagem ilustrativa"
                     width={450}
                     height={450}
